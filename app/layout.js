@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className={`${inter.className}`}>
-          <Toaster />
+          <Toaster richColors />
           <Header />
           <main className="min-h-screen">{children}</main>
           <footer className="bg-blue-50 py-12">
